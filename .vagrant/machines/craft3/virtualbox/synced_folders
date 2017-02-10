@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/craft3":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/craft3","hostpath":"/Users/gonchav/Sites/craft3","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/gonchav/Sites/craft3","disabled":false,"__vagrantfile":true}}}
