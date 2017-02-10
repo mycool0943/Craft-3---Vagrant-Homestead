@@ -1,0 +1,23 @@
+{#
+/**
+ * Focuspoint plugin for Craft CMS 3.x
+ *
+ *  Field Input
+ *
+ * @author    Vadim Goncharov
+ * @copyright Copyright (c) 2017 Vadim Goncharov
+ * @link      http://roundhouseagency.com/
+ * @package   Focuspoint
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+        label: 'Some Field',
+        instructions: 'Enter some text here.',
+        id: name,
+        name: name,
+        value: value})
+}}
