@@ -8,6 +8,18 @@ Have Vagrant and VirtualBox installed on your machine.
 
 ***
 
+### Note!
+
+You can follow the instructions bellow or clone this repo and just run `vagrant up`.
+
+Take a look at `after.sh` it will do all the server set up there. If you need to configure php.ini you can add that to `after.sh`. 
+
+* Before you `vagrant up` open up `Homestead.yaml` and replace `folders:map` to your own user path directory where you are running the vagrant command from.
+
+
+
+***
+
 ## Setup Vagrant + Homestead
 
 * Run `mkdir craft3` (or whatever you want to call it) in your development directory, then `cd craft3`

@@ -12,7 +12,7 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "/Users/owldesign/sites/craft3"
+    - map: "/Users/gonchav/sites/craft3"
       to: "/home/vagrant/craft3"
 
 sites:

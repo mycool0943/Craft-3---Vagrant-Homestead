@@ -24,8 +24,8 @@ sudo sed -i 's/.*max_input_vars.*/max_input_vars = 1000/' /etc/php/7.1/fpm/php.i
 sudo sed -i 's/.*memory_limit.*/memory_limit = 256M/' /etc/php/7.1/fpm/php.ini
 echo "-- PHP Configs Updated --"
 
-echo "Restarting Apache..."
-sudo service apache2 restart
+echo "Restarting NGINX..."
+sudo service nginx restart
 
 echo "+++++++++++++++++++++++"
 echo "++++ Happy Coding! ++++"
